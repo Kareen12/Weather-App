@@ -64,4 +64,3 @@ Please ensure your code follows the existing coding style and includes appropria
 
 For any inquiries or feedback, you can reach me at kareenujjainiya222@gmail.com
 
-her of any city you wish to know.
