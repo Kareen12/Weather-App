@@ -18,6 +18,7 @@ body {
     color: var(--colorLight2);
     background-color: #112d4e;
     background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);
+    padding-bottom: 25px;
 }
 
 /* header and Tab styles */
@@ -198,6 +199,7 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px 20px;
+   
 }
 
 .parameter {
@@ -211,6 +213,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     gap: 5px 0;
+    
 }
 
 .parameter img {
@@ -285,4 +288,172 @@ h1 {
 
 .form-container .btn img {
     object-fit: contain;
+}
+
+/* Safety tips styles */
+.weather-preparedness-section {
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 50px;
+}
+
+
+
+.weather-preparedness-section h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-block: 2rem;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1.75px;
+    color: var(--colorLight2);
+}
+
+.weather-preparedness-section p {
+    font-size: 16px;
+    color: var(--colorLight1);
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1.75px;
+}
+
+.weather-tips h4 {
+    font-size: 20px;
+    color: var(--colorLight2);
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1.75px;
+}
+
+/* .weather-tips ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.weather-tips ul li {
+    font-size: 12px;
+    letter-spacing: 1.75px;
+    color: var(--colorLight1);
+} */
+
+/* .weather-tips ul {
+    list-style-type: disc;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px;
+    padding-left: 0; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.weather-tips ul li {
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    color: var(--colorLight1);
+    text-align: center; 
+} */
+
+.weather-tips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-right: -10px;
+    padding-top: 20px;
+}
+
+.weather-tip {
+    width: calc(50.33% - 20px); /* Adjust width based on desired spacing */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color:rgba(219, 226, 239, 0.5);
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box;
+    letter-spacing: 1.75px;
+}
+
+/* .weather-tip:nth-child(3n+1) {
+    margin-right: 20px; 
+} */
+
+#third-box{
+    margin: 0 auto;
+}
+
+
+
+.weather-tip ul {
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+
+.weather-tip h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--colorDark1);
+}
+
+.weather-tip ul li {
+    font-size: 14px;
+    color: var(--colorLight2);
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .weather-tips {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: none; /* Reset max-width */
+        padding: 0; 
+    }
+
+    .weather-tip {
+        width: 90%; /* Adjust width for better layout on smaller screens */
+    }
+    
+}
+
+
+.emergency-helpline h4 {
+    font-size: 22px;
+    color: var(--colorLight2);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-block: 2rem;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1.75px;
+    color: var(--colorLight2);
+    text-align: center;
+}
+
+.emergency-helpline ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 20px;
+    letter-spacing: 1.75px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: -18px;
+}
+
+.emergency-helpline ul li {
+    font-size: 13px;
+    color: var(--colorLight1);
+}
+
+@media screen and (max-width: 768px) {
+    .weather-tips ul,
+    .emergency-helpline ul {
+        margin-left: 10px;
+    }
 }
